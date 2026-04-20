@@ -1,6 +1,7 @@
 """All CLI menu logic and input handling."""
 from datetime import date
 
+from .csv_export import export_to_csv, prompt_export_filename
 from .db import DatabaseManager
 from .display import clear_screen, print_table, prompt_choice
 from .models import CATEGORIES, Transaction, TransactionType
@@ -197,6 +198,50 @@ def delete_transaction_flow(db: DatabaseManager) -> None:
         print("  Cancelled.")
 
 
+def export_transactions_flow(db: DatabaseManager) -> None:
+    print("\n  EXPORT TRANSACTIONS")
+    print("  [1] Export all transactions")
+    print("  [2] Export income only")
+    print("  [3] Export expenses only")
+    print("  [4] Export by date range")
+    print("  [0] Cancel")
+    choice = input("  Choose: ").strip()
+
+    transactions = None
+
+    if choice == "1":
+        transactions = db.get_all(sort_by="date", sort_dir="ASC")
+        label = "All transactions"
+    elif choice == "2":
+        transactions = db.get_all(type_filter=TransactionType.INCOME, sort_by="date", sort_dir="ASC")
+        label = "Income transactions"
+    elif choice == "3":
+        transactions = db.get_all(type_filter=TransactionType.EXPENSE, sort_by="date", sort_dir="ASC")
+        label = "Expense transactions"
+    elif choice == "4":
+        start = _prompt_date("  Start date", date.today().replace(day=1))
+        end = _prompt_date("  End date", date.today())
+        transactions = db.get_all(start_date=start, end_date=end, sort_by="date", sort_dir="ASC")
+        label = f"Transactions from {start} to {end}"
+    elif choice == "0":
+        return
+    else:
+        print("  Invalid choice.")
+        return
+
+    if not transactions:
+        print("  No transactions found to export.")
+        return
+
+    try:
+        filename = prompt_export_filename()
+        filepath = export_to_csv(transactions, filename)
+        print(f"  ✓ Successfully exported {len(transactions)} {label} to:")
+        print(f"    {filepath}")
+    except (ValueError, IOError) as e:
+        print(f"  ✗ Export failed: {e}")
+
+
 # ---------------------------------------------------------------------------
 # Main menu
 # ---------------------------------------------------------------------------
@@ -212,6 +257,7 @@ def main_menu(db: DatabaseManager) -> None:
         print("  [3] Edit Transaction")
         print("  [4] Delete Transaction")
         print("  [5] Summary / Reports")
+        print("  [6] Export to CSV")
         print("  [0] Quit")
         print("=" * 50)
         choice = input("  Choose: ").strip()
@@ -226,6 +272,8 @@ def main_menu(db: DatabaseManager) -> None:
             delete_transaction_flow(db)
         elif choice == "5":
             summary_flow(db)
+        elif choice == "6":
+            export_transactions_flow(db)
         elif choice == "0":
             print("\n  Goodbye!")
             break
