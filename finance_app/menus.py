@@ -3,6 +3,7 @@ from datetime import date
 
 from .db import DatabaseManager
 from .display import clear_screen, print_table, prompt_choice
+from .logger import logger
 from .models import CATEGORIES, Transaction, TransactionType
 from .reports import summary_flow
 
@@ -79,6 +80,7 @@ def add_transaction_flow(db: DatabaseManager) -> None:
     tx = Transaction(date=tx_date, type=tx_type, category=category,
                      amount=amount, description=description)
     new_id = db.add(tx)
+    logger.info(f"User added {tx_type.value} transaction: ${amount:,.2f} in {category}")
     print(f"  Transaction #{new_id} added successfully.")
 
 
@@ -127,6 +129,7 @@ def edit_transaction_flow(db: DatabaseManager) -> None:
         return
 
     tx = db.get_by_id(tx_id)
+    logger.info(f"User started editing transaction #{tx_id}")
     print(f"\n  Editing transaction #{tx_id} (press Enter to keep current value)")
 
     # Type
@@ -179,6 +182,7 @@ def edit_transaction_flow(db: DatabaseManager) -> None:
 
     db.update(tx)
     print(f"  Transaction #{tx_id} updated.")
+    logger.info(f"User updated transaction #{tx_id}: {tx.type.value} ${tx.amount:,.2f} ({tx.category})")
 
 
 def delete_transaction_flow(db: DatabaseManager) -> None:
@@ -192,8 +196,10 @@ def delete_transaction_flow(db: DatabaseManager) -> None:
     confirm = input("  Confirm delete? [y/N]: ").strip().lower()
     if confirm == "y":
         db.delete(tx_id)
+        logger.info(f"User deleted transaction #{tx_id}")
         print(f"  Transaction #{tx_id} deleted.")
     else:
+        logger.debug(f"User cancelled deletion of transaction #{tx_id}")
         print("  Cancelled.")
 
 
@@ -219,14 +225,17 @@ def main_menu(db: DatabaseManager) -> None:
         if choice == "1":
             add_transaction_flow(db)
         elif choice == "2":
+            logger.debug("User viewed transactions")
             view_transactions_flow(db)
         elif choice == "3":
             edit_transaction_flow(db)
         elif choice == "4":
             delete_transaction_flow(db)
         elif choice == "5":
+            logger.debug("User viewed summary/reports")
             summary_flow(db)
         elif choice == "0":
+            logger.info("User quit application")
             print("\n  Goodbye!")
             break
         else:

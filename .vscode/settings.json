@@ -5,7 +5,7 @@
     "claudeCode.environmentVariables": [
         {
             "name": "ANTHROPIC_BASE_URL",
-            "value": "http://localhost:61000"
+            "value": "http://localhost:55312"
         },
         {
             "name": "ANTHROPIC_AUTH_TOKEN",

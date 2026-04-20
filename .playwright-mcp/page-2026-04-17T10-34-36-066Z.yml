@@ -1,0 +1,715 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Artemis 2 mission Artemis 2 mission
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DArtemis%2B2%2Bmission%26sei%3DuAziafSpNe6n5OUP2pi2kQ8&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLt2sOibMbYx2XAHg-v8xM5VMjbOMePxx0DsGneV4EHbozuvnXwBcd5aQHTKBJ0QeufaTDksLvS6YZEDffrp5UGfdKqeL45z_sjopzqUFsfZWfSsGahqir52QW5urg35HGGiyNcZQVD8E2Rd8GEcVbQRrToM-Q&aep=1&ntc=1&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ2J8OegQICBAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLt2sOibMbYx2XAHg-v8xM5VMjbOMePxx0DsGneV4EHbozuvnXwBcd5aQHTKBJ0QeufaTDksLvS6YZEDffrp5UGfdKqeL45z_sjopzqUFsfZWfSsGahqir52QW5urg35HGGiyNcZQVD8E2Rd8GEcVbQRrToM-Q&q=Artemis+2+mission&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQtKgLegQIDxAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+mission&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLt2sOibMbYx2XAHg-v8xM5VMjbOMePxx0DsGneV4EHbozuvnXwBcd5aQHTKBJ0QeufaTDksLvS6YZEDffrp5UGfdKqeL45z_sjopzqUFsfZWfSsGahqir52QW5urg35HGGiyNcZQVD8E2Rd8GEcVbQRrToM-Q&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ0pQJegQIDhAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLt2sOibMbYx2XAHg-v8xM5VMjbOMePxx0DsGneV4EHbozuvnXwBcd5aQHTKBJ0QeufaTDksLvS6YZEDffrp5UGfdKqeL45z_sjopzqUFsfZWfSsGahqir52QW5urg35HGGiyNcZQVD8E2Rd8GEcVbQRrToM-Q&q=Artemis+2+mission&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQtKgLegQIChAB
+              - generic [ref=e99]: Videos
+          - listitem [ref=e100]:
+            - link "Shopping" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLt2sOibMbYx2XAHg-v8xM5VMjbOMePxx0DsGneV4EHbozuvnXwBcd5aQHTKBJ0QeufaTDksLvS6YZEDffrp5UGfdKqeL45z_sjopzqUFsfZWfSsGahqir52QW5urg35HGGiyNcZQVD8E2Rd8GEcVbQRrToM-Q&q=Artemis+2+mission&ved=1t:220175&ictx=111
+              - generic [ref=e103]: Shopping
+          - listitem [ref=e104]:
+            - link "Short videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLt2sOibMbYx2XAHg-v8xM5VMjbOMePxx0DsGneV4EHbozuvnXwBcd5aQHTKBJ0QeufaTDksLvS6YZEDffrp5UGfdKqeL45z_sjopzqUFsfZWfSsGahqir52QW5urg35HGGiyNcZQVD8E2Rd8GEcVbQRrToM-Q&q=Artemis+2+mission&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQs6gLegQICxAB
+              - generic [ref=e107]: Short videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e137]:
+        - button "Thumbnail image for Artemis II" [ref=e141] [cursor=pointer]
+        - generic [ref=e143]:
+          - heading "Artemis II" [level=2] [ref=e146]
+          - generic [ref=e147]:
+            - generic [ref=e149]: Space mission
+            - button "More options for Artemis II" [ref=e155] [cursor=pointer]:
+              - img "More options for Artemis II" [ref=e156]:
+                - img [ref=e158]
+      - main [ref=e161]:
+        - generic [ref=e165]:
+          - generic [ref=e167]:
+            - generic [ref=e173]:
+              - heading "About" [level=3] [ref=e176]
+              - generic [ref=e181]:
+                - generic [ref=e185]:
+                  - heading "Description" [level=3] [ref=e186]
+                  - generic [ref=e187]: Artemis II was a crewed lunar flyby mission on April 1–11, 2026. It was the first crewed flight of the NASA-led Artemis program and the first crewed flight beyond low Earth orbit since Apollo 17 in 1972.
+                  - link "Wikipedia" [ref=e189] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Artemis_II
+                - generic [ref=e192]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Dates
+                    - generic [ref=e199]: 1 Apr 2026 – 11 Apr 2026
+                  - generic [ref=e203]:
+                    - generic [ref=e204]: Location
+                    - link "Launch Complex 39B - Kennedy Space Center" [ref=e207] [cursor=pointer]:
+                      - /url: /search?sca_esv=a963c435ce01c701&q=Kennedy+Space+Center+Launch+Complex+39b&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLndYhBSImLpCV8hj6sESsVxdO7qhPNl71-1zB4m7xV7ehMzb_KRC4gUNxcSNZvXLKBBvpyIbjSPWxhD8YFj1J9t_Dg9uwwUDvCaY1tWehd20gKZ_ezgeDn5fVWtUQCMwmIaaWcXlgkrlS76G4PK0FtMbDV4Xvq6vZFTdJ6oCuinddfsgv4VDfmEE3mb4yFMGv4xiWxzxxqg9QMsIG0MKl0MR51yV3&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgbEAI
+                  - generic [ref=e211]:
+                    - generic [ref=e212]: Crew size
+                    - generic [ref=e214]: "4"
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: Distance
+                    - generic [ref=e221]: 6,400 mi (10,300 km) (planned)
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: Manufacturer
+                    - generic [ref=e228]:
+                      - link "Orion" [ref=e229] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Orion&stick=H4sIAAAAAAAAAONgVuLUz9U3MEpKTzddxMrqX5SZnwcAVx-CvRUAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgeEAI
+                      - text: "CM:"
+                      - link "Lockheed Martin" [ref=e230] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Lockheed+Martin&stick=H4sIAAAAAAAAAONgVuLVT9c3NExKNjPIMc4tWsTK75OfnJ2Rmpqi4JtYVJKZBwDxp5PJIwAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgeEAM
+                      - text: ;
+                      - link "ESM" [ref=e231] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=ESM&stick=H4sIAAAAAAAAAONgVuLSz9U3KDSuKivKWsTK7BrsCwDx66csFAAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgeEAQ
+                      - text: ":"
+                      - link "Airbus Defence and Space" [ref=e232] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Airbus+Defence+and+Space&stick=H4sIAAAAAAAAAONgVuLVT9c3NEw2tcwzyTDOXsQq4ZhZlFRarOCSmpaal5yqkJiXohBckJicCgDtwJEOLAAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgeEAU
+                  - generic [ref=e236]:
+                    - generic [ref=e237]: Members
+                    - generic [ref=e239]:
+                      - link "Reid Wiseman" [ref=e240] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Reid+Wiseman&stick=H4sIAAAAAAAAAONgVuLSz9U3MCu3KDc1WMTKE5SamaIQnlmcmpuYBwDGfh_2HQAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgfEAI
+                      - text: ;
+                      - link "Victor Glover" [ref=e241] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Victor+Glover&stick=H4sIAAAAAAAAAONgVuLSz9U3KDdMskiqXMTKG5aZXJJfpOCek1-WWgQAtJLyOh4AAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgfEAM
+                      - text: ;
+                      - link "Christina Koch" [ref=e242] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Christina+Koch&stick=H4sIAAAAAAAAAONgVuLSz9U3KDe0SKk0WMTK55xRlFlckpmXqOCdn5wBAL4ENRofAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgfEAQ
+                      - text: ;
+                      - link "Jeremy Hansen" [ref=e243] [cursor=pointer]:
+                        - /url: /search?sca_esv=a963c435ce01c701&q=Jeremy+Hansen&stick=H4sIAAAAAAAAAONgVuLSz9U3MDMxyMjLW8TK65ValJpbqeCRmFecmgcAP3y4XB4AAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQmxN6BAgfEAU
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Mission duration
+                    - generic [ref=e250]: 10 days (planned)
+              - button "Feedback" [ref=e253] [cursor=pointer]:
+                - generic [ref=e254]: Feedback
+            - generic [ref=e257]:
+              - heading "People also search for" [level=3] [ref=e259]
+              - generic [ref=e264]:
+                - list [ref=e265]:
+                  - listitem [ref=e267]:
+                    - generic [ref=e268]:
+                      - link "Artemis III":
+                        - /url: /search?sca_esv=a963c435ce01c701&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnex08kvKtX5HS89z4Ziid0Gqjz6GoakeqrgArvte1EEdQii6IHnzjVAiWQeCiC6d-1PrpcuPalEtXAUn08jj4K6Psy40E-MbH1sHuvDwrRw7vSfFlOJ8rPcpbj6jM3fF7V0YiBkmMLlDy6tI1IEug4o6bDhe3OOFUtBic29OQvGQZNDHsQ%3D%3D&q=Artemis+III&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQs9oBKAB6BAgMEAY
+                      - heading [level=3] [ref=e273]:
+                        - generic [ref=e274]: Artemis III
+                  - listitem [ref=e276]:
+                    - generic [ref=e277]:
+                      - link "Artemis program":
+                        - /url: /search?sca_esv=a963c435ce01c701&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnbiFyxZ_XlcxmTZ1NUMVCJONq18L2A_LHRJAilo8lbSyUtJIsr5yaByplG3syj6CcAKicTF0kRCVU1Wry4_8IyxBSuhSEiNUPwUdnZKhBsWlOasfEZ4A_BzmgKmilxoMTdJ2AtpU-vM-swBz_fVWbpbV68g3xv9c91P_7J9gNkAuzNk5nQ%3D%3D&q=Artemis+program&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQs9oBKAB6BAgMEAo
+                      - heading [level=3] [ref=e282]:
+                        - generic [ref=e283]: Artemis program
+                  - listitem [ref=e285]:
+                    - generic [ref=e286]:
+                      - link "Artemis IV":
+                        - /url: /search?sca_esv=a963c435ce01c701&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnW7IKgvmRisVFmOeBj1IjvE9Ut8yddAV8IBWZLeNeOiwb6hmFFUFoUyk-gKaJ1lSfXCea6ht44eaZDtl55qK2wcqXwoFV8kNdsW3qGX-xZXagEXwa2geZsIk9RfkzMf_20_J_7GiEM64-NI3QHZzt89cLASGlZQkK6MQwSTLGpa1xK5Twg%3D%3D&q=Artemis+IV&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQs9oBKAB6BAgMEA4
+                      - heading [level=3] [ref=e291]:
+                        - generic [ref=e292]: Artemis IV
+                  - listitem [ref=e294]:
+                    - generic [ref=e295]:
+                      - link "Artemis I":
+                        - /url: /search?sca_esv=a963c435ce01c701&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTCLthyLCterxxmoCOPx0_Co_zORGnJKfipw3E7txNpqijduInObE5LRwjtXgLCEJbX_bAYa9JNpZncxToYEcLXNVBfsn_NOMqk2PW2r8RVzEjMIyfLHCwhLDFVRm_jP2PrPu91p_5242QGs-oxU8eTPDH6dJ&q=Artemis+I&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQs9oBKAB6BAgMEBI
+                      - heading [level=3] [ref=e300]:
+                        - generic [ref=e301]: Artemis I
+                - link "See more" [ref=e303] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+II&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV0JiawkGZ6aklidWFvulVpQEl6QWFP9iFAtIzS_ISVVIzCnOVyhOTSxKzlBIyy9axMrlWFSSmptZrODpeYtNkmGp8m3-Z6EZC2Mrjj1RnvXu-bSmPqsVqaZ5ALHymaZvAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQzO0BKAR6BAgMEBQ
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: See more
+                    - img [ref=e307]
+            - generic [ref=e311]:
+              - generic [ref=e318]:
+                - generic [ref=e320]:
+                  - heading "Artemis II / Date" [level=2] [ref=e323]:
+                    - generic [ref=e324]: Artemis II
+                    - generic [ref=e325]: /
+                    - generic [ref=e326]: Date
+                  - generic [ref=e327]:
+                    - button "upload.wikimedia.org/wikipedia/commons/b/b1/Artemi..." [ref=e336] [cursor=pointer]:
+                      - img "upload.wikimedia.org/wikipedia/commons/b/b1/Artemi..." [ref=e339]
+                    - heading "Wed, 1 Apr, 2026 – Sat, 11 Apr, 2026" [level=2] [ref=e341]:
+                      - generic [ref=e342]: Wed, 1 Apr, 2026 – Sat, 11 Apr, 2026
+                - generic [ref=e343]:
+                  - heading "People also search for" [level=2] [ref=e345]
+                  - generic [ref=e347]:
+                    - list [ref=e349]:
+                      - listitem [ref=e350]:
+                        - generic [ref=e353]:
+                          - link "Artemis III":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+III&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV-LVT9c3NEwqz0sxiM821OJzzs_Nzc8LzkxJLU-sLF7Eyu1YVJKam1ms4OnpCQD5q58BOwAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3EAc
+                          - generic [ref=e359]: Artemis III
+                      - listitem [ref=e360]:
+                        - generic [ref=e363]:
+                          - link "Artemis program":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+program&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV-LVT9c3NMwwzCiLzzaJ1-Jzzs_Nzc8LzkxJLU-sLF7Eyu9YVJKam1msUFCUn16UmAsAqOh33j8AAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3EAw
+                          - generic [ref=e369]: Artemis program
+                      - listitem [ref=e370]:
+                        - generic [ref=e373]:
+                          - link "Artemis IV":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+IV&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV-LVT9c3NCwqKDS2qCwy0eJzzs_Nzc8LzkxJLU-sLF7EyuVYVJKam1ms4BkGAMJl8LY6AAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3EBE
+                          - generic [ref=e379]: Artemis IV
+                      - listitem [ref=e380]:
+                        - generic [ref=e383]:
+                          - link "Artemis I":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+I&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKVwKzs3Pis4oNtfic83Nz8_OCM1NSyxMrixexcjoWlaTmZhYreAIAiRxhxTYAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3EBY
+                          - generic [ref=e389]: Artemis I
+                      - listitem [ref=e390]:
+                        - generic [ref=e393]:
+                          - link "Apollo 13":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Apollo+13&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV2IHsUsMkrT4nPNzc_PzgjNTUssTK4sXsXI6FuTn5OQrGBoDAOvfw_czAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3EBs
+                          - generic [ref=e399]: Apollo 13
+                      - listitem [ref=e400]:
+                        - generic [ref=e403]:
+                          - link "Apollo 11":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Apollo+11&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV2IHsTOKC7T4nPNzc_PzgjNTUssTK4sXsXI6FuTn5OQrGBoCAAc6tKczAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3ECA
+                          - generic [ref=e409]: Apollo 11
+                      - listitem [ref=e410]:
+                        - generic [ref=e413]:
+                          - link "Apollo 17":
+                            - /url: /search?sca_esv=a963c435ce01c701&q=Apollo+17&stick=H4sIAAAAAAAAAONgFuLSz9U3qCrKrTBKV2IHscuKTbT4nPNzc_PzgjNTUssTK4sXsXI6FuTn5OQrGJoDAEp6GdAzAAAA&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQxA16BAg3ECU
+                          - generic [ref=e419]: Apollo 17
+                    - button [ref=e420] [cursor=pointer]:
+                      - img [ref=e423]
+              - button "Feedback" [ref=e431] [cursor=pointer]:
+                - generic [ref=e433]: Feedback
+          - generic [ref=e438]:
+            - heading "People also ask" [level=2] [ref=e440]
+            - generic [ref=e441]:
+              - button "What is Artemis 2's mission?" [ref=e447] [cursor=pointer]:
+                - generic [ref=e449]: What is Artemis 2's mission?
+                - img [ref=e452]
+              - generic [ref=e458]:
+                - button "Why was Artemis 2 delayed again?" [ref=e461] [cursor=pointer]:
+                  - generic [ref=e463]: Why was Artemis 2 delayed again?
+                  - img [ref=e466]
+                - text: "\"... ...\" \"... ...\""
+              - button "What will Artemis 3 do?" [ref=e475] [cursor=pointer]:
+                - generic [ref=e477]: What will Artemis 3 do?
+                - img [ref=e480]
+              - button "How long will Artemis 2 be in Blackout?" [ref=e489] [cursor=pointer]:
+                - generic [ref=e491]: How long will Artemis 2 be in Blackout?
+                - img [ref=e494]
+          - generic [ref=e499]:
+            - heading "Web results" [level=2] [ref=e500]
+            - generic [ref=e501]:
+              - generic [ref=e504]:
+                - 'link "Artemis II: NASA''s First Crewed Lunar Flyby in 50 Years NASA (.gov) https://www.nasa.gov › mission › artemis-ii" [ref=e506] [cursor=pointer]':
+                  - /url: https://www.nasa.gov/mission/artemis-ii/
+                  - 'heading "Artemis II: NASA''s First Crewed Lunar Flyby in 50 Years" [level=3] [ref=e507]'
+                  - generic [ref=e512]:
+                    - generic [ref=e514]: NASA (.gov)
+                    - generic [ref=e516]: https://www.nasa.gov › mission › artemis-ii
+                - button "About this result" [ref=e517] [cursor=pointer]:
+                  - img [ref=e520]
+              - generic [ref=e524]:
+                - text: Meet the Artemis II crew and learn how NASA's
+                - emphasis [ref=e525]: 10-day lunar flyby mission
+                - text: will test deep space systems and pave the way for future Moon landings.
+          - generic [ref=e529]:
+            - generic [ref=e532]:
+              - link "Artemis II Wikipedia https://en.wikipedia.org › wiki › Artemis_II" [ref=e534] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Artemis_II
+                - heading "Artemis II" [level=3] [ref=e535]
+                - generic [ref=e540]:
+                  - generic [ref=e542]: Wikipedia
+                  - generic [ref=e544]: https://en.wikipedia.org › wiki › Artemis_II
+              - button "About this result" [ref=e545] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e551]:
+              - generic [ref=e552]:
+                - text: Artemis II was a
+                - emphasis [ref=e553]: crewed lunar flyby mission on April 1–11, 2026
+                - text: . It was the first crewed flight of the NASA-led Artemis program and the first crewed flight ...
+              - link "Read more" [ref=e554] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Artemis_II#:~:text=Artemis%20II%20was%20a%20crewed,since%20Apollo%2017%20in%201972.
+            - list [ref=e556]:
+              - listitem [ref=e557]:
+                - link "History" [ref=e558] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Artemis_II#History
+                  - generic [ref=e561]: History
+              - listitem [ref=e562]:
+                - link "Crew" [ref=e563] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Artemis_II#Crew
+                  - generic [ref=e566]: Crew
+              - listitem [ref=e567]:
+                - link "Mission" [ref=e568] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Artemis_II#Mission
+                  - generic [ref=e571]: Mission
+          - generic [ref=e575]:
+            - generic [ref=e577]:
+              - heading "Videos" [level=2] [ref=e578]
+              - button "About this result" [ref=e579] [cursor=pointer]:
+                - img [ref=e582]
+            - generic [ref=e585]:
+              - generic [ref=e590]:
+                - generic [ref=e591]:
+                  - generic [ref=e592]:
+                    - link "Artemis II Moon Mission Complete! YouTube NASA 4 days ago" [ref=e594] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=IfRqrrBbT-Y&vl=en
+                      - heading "Artemis II Moon Mission Complete! YouTube NASA 4 days ago" [level=3] [ref=e595]:
+                        - generic [ref=e598]: Artemis II Moon Mission Complete!
+                        - generic [ref=e600]:
+                          - generic [ref=e601]:
+                            - text: YouTube
+                            - generic [ref=e602]: · NASA
+                          - generic [ref=e603]: 4 days ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · NASA
+                        - button "About this result" [ref=e604] [cursor=pointer]:
+                          - img [ref=e607]
+                  - button "Artemis II Moon Mission Complete! by NASA on YouTube. Play on Google. 3:33" [ref=e609] [cursor=pointer]:
+                    - generic [ref=e610]:
+                      - img [ref=e613]
+                      - generic [ref=e616]:
+                        - generic [ref=e617]: 3:33
+                        - img [ref=e620]
+                - button "Four brave explorers, Reid, Victor, Christina, and Jeremy, are testing every system aboard Orion on their historic flight to the moon." [ref=e623] [cursor=pointer]:
+                  - generic [ref=e626]: Four brave explorers, Reid, Victor, Christina, and Jeremy, are testing every system aboard Orion on their historic flight to the moon.
+              - generic [ref=e631]:
+                - generic [ref=e632]:
+                  - link "Artemis crew describes Moon mission and splashdown moment BBC 14 hours ago" [ref=e634] [cursor=pointer]:
+                    - /url: https://www.bbc.com/news/videos/clyxpn98w55o
+                    - heading "Artemis crew describes Moon mission and splashdown moment BBC 14 hours ago" [level=3] [ref=e635]:
+                      - generic [ref=e638]: Artemis crew describes Moon mission and splashdown moment
+                      - generic [ref=e640]:
+                        - generic [ref=e641]: BBC
+                        - generic [ref=e642]: 14 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: BBC
+                      - button "About this result" [ref=e643] [cursor=pointer]:
+                        - img [ref=e646]
+                - link "Artemis crew describes Moon mission and splashdown moment on BBC. Play on BBC. 1:31" [ref=e648] [cursor=pointer]:
+                  - /url: https://www.bbc.com/news/videos/clyxpn98w55o
+                  - generic [ref=e649]:
+                    - img [ref=e652]
+                    - generic [ref=e656]: 1:31
+              - generic [ref=e661]:
+                - generic [ref=e662]:
+                  - generic [ref=e663]:
+                    - link "NASA's Artemis II Crew Flies Around the Moon (Official ... YouTube NASA 1 week ago" [ref=e665] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=z-j1uxBmis0
+                      - heading "NASA's Artemis II Crew Flies Around the Moon (Official ... YouTube NASA 1 week ago" [level=3] [ref=e666]:
+                        - generic [ref=e669]: NASA's Artemis II Crew Flies Around the Moon (Official ...
+                        - generic [ref=e671]:
+                          - generic [ref=e672]:
+                            - text: YouTube
+                            - generic [ref=e673]: · NASA
+                          - generic [ref=e674]: 1 week ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · NASA
+                        - button "About this result" [ref=e675] [cursor=pointer]:
+                          - img [ref=e678]
+                  - button "NASA's Artemis II Crew Flies Around the Moon (Official ... by NASA on YouTube. Play on Google. 10:10:01" [ref=e680] [cursor=pointer]:
+                    - generic [ref=e681]:
+                      - img [ref=e684]
+                      - generic [ref=e687]:
+                        - generic [ref=e688]: 10:10:01
+                        - img [ref=e691]
+                - button "5 key moments in this video" [ref=e697] [cursor=pointer]:
+                  - generic [ref=e700]:
+                    - generic [ref=e703]: 5 key moments in this video
+                    - img [ref=e705]
+              - generic [ref=e712]:
+                - generic [ref=e713]:
+                  - link "Relive the Artemis 2 mission's final hours in space and epic ... YouTube VideoFromSpace 3 days ago" [ref=e715] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=gvkmuEioDSQ
+                    - heading "Relive the Artemis 2 mission's final hours in space and epic ... YouTube VideoFromSpace 3 days ago" [level=3] [ref=e716]:
+                      - generic [ref=e719]: Relive the Artemis 2 mission's final hours in space and epic ...
+                      - generic [ref=e721]:
+                        - generic [ref=e722]:
+                          - text: YouTube
+                          - generic [ref=e723]: · VideoFromSpace
+                        - generic [ref=e724]: 3 days ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · VideoFromSpace
+                      - button "About this result" [ref=e725] [cursor=pointer]:
+                        - img [ref=e728]
+                - button "Relive the Artemis 2 mission's final hours in space and epic ... by VideoFromSpace on YouTube. Play on Google. 44:56" [ref=e730] [cursor=pointer]:
+                  - generic [ref=e731]:
+                    - img [ref=e734]
+                    - generic [ref=e737]:
+                      - generic [ref=e738]: 44:56
+                      - img [ref=e741]
+            - link "View all videos" [ref=e745] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&udm=7&q=Artemis+2+mission&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8ccDKAJ6BAh2EAQ
+              - separator [ref=e746]
+              - generic [ref=e747]:
+                - generic [ref=e748]: View all
+                - img [ref=e750]
+          - generic [ref=e755]:
+            - generic [ref=e757]:
+              - heading "Top stories" [level=2] [ref=e759]:
+                - generic [ref=e761]: Top stories
+              - link "Sign in to customise" [ref=e763] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?ec=oo-seaport-srp-sp-11135&continue=https://www.google.com/search?q%3DArtemis%2B2%2Bmission%26sei%3DuAziafSpNe6n5OUP2pi2kQ8%26ptid%3D11135%26ptt%3D8%26fpts%3D1776422074652
+                - generic [ref=e765]:
+                  - img [ref=e767]
+                  - text: Sign in to customise
+            - generic [ref=e769]:
+              - heading "Artemis II astronauts reflect on historic mission to the Moon" [level=2] [ref=e773]:
+                - generic [ref=e775]: Artemis II astronauts reflect on historic mission to the Moon
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - link "CityNews Halifax About this result Artemis 2 crew speaks of their experience in space 12 hours ago" [ref=e780] [cursor=pointer]:
+                    - /url: https://halifax.citynews.ca/video/2026/04/16/artemis-2-crew-speaks-of-their-experience-in-space/
+                    - generic [ref=e786]:
+                      - generic [ref=e788]:
+                        - generic [ref=e791]: CityNews Halifax
+                        - button "About this result" [ref=e794]:
+                          - img [ref=e795]
+                      - heading "Artemis 2 crew speaks of their experience in space" [level=4] [ref=e797]
+                      - generic [ref=e798]: 12 hours ago
+                  - generic [ref=e801]:
+                    - link "BBC About this result Artemis II crew talk about their Moon mission 13 hours ago" [ref=e804] [cursor=pointer]:
+                      - /url: https://www.bbc.com/news/live/cx2eey4qjdwt
+                      - generic [ref=e809]:
+                        - generic [ref=e811]:
+                          - generic [ref=e814]: BBC
+                          - button "About this result" [ref=e817]:
+                            - img [ref=e818]
+                        - heading "Artemis II crew talk about their Moon mission" [level=4] [ref=e820]
+                        - generic [ref=e821]: 13 hours ago
+                    - link "CNN About this result The Artemis II astronauts are set to take questions about their moon journey 16 hours ago" [ref=e825] [cursor=pointer]:
+                      - /url: https://www.cnn.com/2026/04/16/science/artemis-2-astronauts-moon-mission-questions
+                      - generic [ref=e830]:
+                        - generic [ref=e832]:
+                          - generic [ref=e835]: CNN
+                          - button "About this result" [ref=e838]:
+                            - img [ref=e839]
+                        - heading "The Artemis II astronauts are set to take questions about their moon journey" [level=4] [ref=e841]
+                        - generic [ref=e842]: 16 hours ago
+                - generic [ref=e844]:
+                  - link "Space About this result Landing astronauts on the moon 'is absolutely doable, and it's doable soon,' NASA's Artemis 2 commander says 13 hours ago" [ref=e847] [cursor=pointer]:
+                    - /url: https://www.space.com/space-exploration/artemis/landing-astronauts-on-the-moon-is-absolutely-doable-and-its-doable-soon-nasas-artemis-2-commander-says
+                    - generic [ref=e852]:
+                      - generic [ref=e854]:
+                        - generic [ref=e857]: Space
+                        - button "About this result" [ref=e860]:
+                          - img [ref=e861]
+                      - heading "Landing astronauts on the moon 'is absolutely doable, and it's doable soon,' NASA's Artemis 2 commander says" [level=4] [ref=e863]
+                      - generic [ref=e864]: 13 hours ago
+                  - 'link "NASA (.gov) About this result Update: Artemis II Crew Comes Home 1 day ago" [ref=e868] [cursor=pointer]':
+                    - /url: https://www.nasa.gov/podcasts/curious-universe/artemis-ii-crew-comes-home/
+                    - generic [ref=e873]:
+                      - generic [ref=e875]:
+                        - generic [ref=e878]: NASA (.gov)
+                        - button "About this result" [ref=e881]:
+                          - img [ref=e882]
+                      - 'heading "Update: Artemis II Crew Comes Home" [level=4] [ref=e884]'
+                      - generic [ref=e885]: 1 day ago
+            - generic [ref=e886]:
+              - heading "Also in the news" [level=2] [ref=e890]:
+                - generic [ref=e892]: Also in the news
+              - generic [ref=e894]:
+                - link "NewsBytes About this result Artemis 2 returns after Orion toilet clog, Reid Wiseman says 2 hours ago" [ref=e897] [cursor=pointer]:
+                  - /url: https://www.newsbytesapp.com/news/science/artemis-2-returns-after-orion-toilet-clog-reid-wiseman-says/tldr
+                  - generic [ref=e902]:
+                    - generic [ref=e904]:
+                      - generic [ref=e907]: NewsBytes
+                      - button "About this result" [ref=e910]:
+                        - img [ref=e911]
+                    - heading "Artemis 2 returns after Orion toilet clog, Reid Wiseman says" [level=4] [ref=e913]
+                    - generic [ref=e914]: 2 hours ago
+                - 'link "India Today About this result We sniffed every corner of the spacecfraft: Artemis-2 astronauts had a fire scare 4 hours ago" [ref=e918] [cursor=pointer]':
+                  - /url: https://www.indiatoday.in/science/story/we-sniffed-every-corner-of-the-spacecfraft-artemis-2-astronauts-had-a-fire-scare-2897520-2026-04-17
+                  - generic [ref=e923]:
+                    - generic [ref=e925]:
+                      - generic [ref=e928]: India Today
+                      - button "About this result" [ref=e931]:
+                        - img [ref=e932]
+                    - 'heading "We sniffed every corner of the spacecfraft: Artemis-2 astronauts had a fire scare" [level=4] [ref=e934]'
+                    - generic [ref=e935]: 4 hours ago
+            - link "More news" [ref=e937] [cursor=pointer]:
+              - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+mission&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQt8YBKAJ6BAhxEAU
+              - separator [ref=e938]
+              - generic [ref=e939]:
+                - generic [ref=e940]: More news
+                - img [ref=e942]
+          - generic [ref=e946]:
+            - heading "Web results" [level=2] [ref=e947]
+            - generic [ref=e948]:
+              - generic [ref=e951]:
+                - link "ESA - Artemis II European Space Agency https://www.esa.int › Science_Exploration › Orion › Arte..." [ref=e953] [cursor=pointer]:
+                  - /url: https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_II
+                  - heading "ESA - Artemis II" [level=3] [ref=e954]
+                  - generic [ref=e959]:
+                    - generic [ref=e961]: European Space Agency
+                    - generic [ref=e963]: https://www.esa.int › Science_Exploration › Orion › Arte...
+                - button "About this result" [ref=e964] [cursor=pointer]:
+                  - img [ref=e967]
+              - generic [ref=e971]:
+                - emphasis [ref=e972]: Artemis II will be the first crewed mission of the Artemis programme
+                - text: ", carrying four astronauts on a journey around the Moon and back to Earth for the first ..."
+          - generic [ref=e979]:
+            - generic [ref=e982]:
+              - link "NASA's Artemis II Crew Launches To The Moon (Official ... YouTube · NASA 1.9Cr+ views · 2 weeks ago" [ref=e984] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=Tf_UjBMIzNo
+                - heading "NASA's Artemis II Crew Launches To The Moon (Official ..." [level=3] [ref=e985]
+                - generic [ref=e990]:
+                  - generic [ref=e992]: YouTube · NASA
+                  - generic [ref=e994]: 1.9Cr+ views · 2 weeks ago
+              - button "About this result" [ref=e995] [cursor=pointer]:
+                - img [ref=e998]
+            - generic [ref=e1000]:
+              - button "NASA's Artemis II Crew Launches To The Moon (Official ... by NASA on YouTube. Play on Google. 6:22:52" [ref=e1001] [cursor=pointer]:
+                - generic [ref=e1003]:
+                  - img [ref=e1006]
+                  - generic [ref=e1009]:
+                    - generic [ref=e1010]: 6:22:52
+                    - img [ref=e1013]
+              - generic [ref=e1016]: After launching into space atop NASA's Space Launch System (SLS) rocket, the crew will journey around the Moon and back in their Orion ...
+            - button "9 key moments in this video" [ref=e1021] [cursor=pointer]:
+              - generic [ref=e1024]:
+                - generic [ref=e1027]: 9 key moments in this video
+                - img [ref=e1029]
+          - generic [ref=e1034]:
+            - generic [ref=e1037]:
+              - link "Artemis II Kennedy Space Center Visitor Complex https://www.kennedyspacecenter.com › landing-pages" [ref=e1039] [cursor=pointer]:
+                - /url: https://www.kennedyspacecenter.com/landing-pages/artemis-ii/
+                - heading "Artemis II" [level=3] [ref=e1040]
+                - generic [ref=e1045]:
+                  - generic [ref=e1047]: Kennedy Space Center Visitor Complex
+                  - generic [ref=e1049]: https://www.kennedyspacecenter.com › landing-pages
+              - button "About this result" [ref=e1050] [cursor=pointer]:
+                - img [ref=e1053]
+            - generic [ref=e1056]:
+              - text: This will be the first crewed flight of the SLS rocket and Orion spacecraft around the Moon. Their goal is to verify modern human capabilities in deep space and ...
+              - link "Read more" [ref=e1057] [cursor=pointer]:
+                - /url: https://www.kennedyspacecenter.com/landing-pages/artemis-ii/#:~:text=This%20will%20be%20the%20first,science%20on%20the%20lunar%20surface.
+          - generic [ref=e1061]:
+            - generic [ref=e1064]:
+              - link "The Artemis II mission | Canadian Space Agency Agence spatiale canadienne https://www.asc-csa.gc.ca › ... › Missions › Artemis II" [ref=e1066] [cursor=pointer]:
+                - /url: https://www.asc-csa.gc.ca/eng/missions/artemis-ii/mission.asp
+                - heading "The Artemis II mission | Canadian Space Agency" [level=3] [ref=e1067]
+                - generic [ref=e1069]:
+                  - img [ref=e1073]
+                  - generic [ref=e1075]:
+                    - generic [ref=e1077]: Agence spatiale canadienne
+                    - generic [ref=e1079]: https://www.asc-csa.gc.ca › ... › Missions › Artemis II
+              - button "About this result" [ref=e1080] [cursor=pointer]:
+                - img [ref=e1083]
+            - generic [ref=e1086]:
+              - generic [ref=e1087]:
+                - text: The Artemis II mission will
+                - emphasis [ref=e1088]: travel around the Moon
+                - text: to ensure that all of the Orion spacecraft's systems work as designed with a crew of four on board.
+              - link "Read more" [ref=e1089] [cursor=pointer]:
+                - /url: https://www.asc-csa.gc.ca/eng/missions/artemis-ii/mission.asp#:~:text=%2C%20the%20Artemis,crew%20of%20four%20on%20board.
+          - generic [ref=e1093]:
+            - generic [ref=e1096]:
+              - link "NASA Artemis II | Send Your Name to Space NASA (.gov) https://www3.nasa.gov › send-your-name-with-artemis" [ref=e1098] [cursor=pointer]:
+                - /url: https://www3.nasa.gov/send-your-name-with-artemis/
+                - heading "NASA Artemis II | Send Your Name to Space" [level=3] [ref=e1099]
+                - generic [ref=e1101]:
+                  - img [ref=e1105]
+                  - generic [ref=e1107]:
+                    - generic [ref=e1109]: NASA (.gov)
+                    - generic [ref=e1111]: https://www3.nasa.gov › send-your-name-with-artemis
+              - button "About this result" [ref=e1112] [cursor=pointer]:
+                - img [ref=e1115]
+            - generic [ref=e1118]:
+              - generic [ref=e1119]:
+                - text: NASA is sending astronauts to
+                - emphasis [ref=e1120]: explore the Moon
+                - text: for scientific discovery, economic benefits, and to build the foundation for the first crewed missions to Mars.
+              - link "Read more" [ref=e1121] [cursor=pointer]:
+                - /url: https://www3.nasa.gov/send-your-name-with-artemis/#:~:text=NASA%20is%20sending%20astronauts%20to,first%20crewed%20missions%20to%20Mars.
+          - generic [ref=e1125]:
+            - generic [ref=e1128]:
+              - link "The Artemis II mission The Planetary Society https://www.planetary.org › Articles" [ref=e1130] [cursor=pointer]:
+                - /url: https://www.planetary.org/articles/artemis-ii-what-to-expect
+                - heading "The Artemis II mission" [level=3] [ref=e1131]
+                - generic [ref=e1136]:
+                  - generic [ref=e1138]: The Planetary Society
+                  - generic [ref=e1140]: https://www.planetary.org › Articles
+              - button "About this result" [ref=e1141] [cursor=pointer]:
+                - img [ref=e1144]
+            - generic [ref=e1147]:
+              - generic [ref=e1148]: 6 days ago —
+              - generic [ref=e1149]:
+                - text: NASA's Artemis II mission
+                - emphasis [ref=e1150]: sent the first humans back to the Moon in over 50 years
+                - text: . A crew of four astronauts undertook a 10-day mission ...
+              - link "Read more" [ref=e1151] [cursor=pointer]:
+                - /url: https://www.planetary.org/articles/artemis-ii-what-to-expect#:~:text=NASA's%20Artemis%20II%20mission%20sent,astronauts%20undertook%20a%2010%2Dday%20mission
+        - generic [ref=e1153]:
+          - generic [ref=e1158]:
+            - heading "People also search for" [level=2] [ref=e1160]
+            - generic [ref=e1162]:
+              - generic [ref=e1163]:
+                - link "Artemis 2 launch date" [ref=e1167] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+launch+date&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAhqEAE
+                  - generic [ref=e1168]:
+                    - generic [ref=e1173]: Artemis 2 launch date
+                    - img [ref=e1177]
+                - link "Artemis 2 mission plan" [ref=e1182] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+mission+plan&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAh5EAE
+                  - generic [ref=e1183]:
+                    - generic [ref=e1188]: Artemis 2 mission plan
+                    - img [ref=e1192]
+                - link "Artemis 3" [ref=e1197] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+3&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAh4EAE
+                  - generic [ref=e1198]:
+                    - generic [ref=e1203]: Artemis 3
+                    - img [ref=e1207]
+                - link "Artemis 2 tracker" [ref=e1212] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+tracker&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAh3EAE
+                  - generic [ref=e1213]:
+                    - generic [ref=e1218]: Artemis 2 tracker
+                    - img [ref=e1222]
+              - generic [ref=e1224]:
+                - link "Artemis 2 mission details" [ref=e1228] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+mission+details&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAh0EAE
+                  - generic [ref=e1229]:
+                    - generic [ref=e1234]: Artemis 2 mission details
+                    - img [ref=e1238]
+                - link "Artemis 2 crew" [ref=e1243] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+crew&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAhvEAE
+                  - generic [ref=e1244]:
+                    - generic [ref=e1249]: Artemis 2 crew
+                    - img [ref=e1253]
+                - link "Where is Artemis 2 now" [ref=e1258] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Where+is+Artemis+2+now&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAhsEAE
+                  - generic [ref=e1259]:
+                    - generic [ref=e1264]: Where is Artemis 2 now
+                    - img [ref=e1268]
+                - link "Artemis 2 photos" [ref=e1273] [cursor=pointer]:
+                  - /url: /search?sca_esv=a963c435ce01c701&q=Artemis+2+photos&sa=X&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ1QJ6BAhrEAE
+                  - generic [ref=e1274]:
+                    - generic [ref=e1279]: Artemis 2 photos
+                    - img [ref=e1283]
+          - navigation [ref=e1285]:
+            - heading "Page navigation" [level=1] [ref=e1286]
+            - text: "1"
+            - link "Page 2" [ref=e1289] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=10&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAE
+              - text: "2"
+            - link "Page 3" [ref=e1291] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=20&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAG
+              - text: "3"
+            - link "Page 4" [ref=e1293] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=30&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAI
+              - text: "4"
+            - link "Page 5" [ref=e1295] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=40&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAK
+              - text: "5"
+            - link "Page 6" [ref=e1297] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=50&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAM
+              - text: "6"
+            - link "Page 7" [ref=e1299] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=60&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAO
+              - text: "7"
+            - link "Page 8" [ref=e1301] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=70&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAQ
+              - text: "8"
+            - link "Page 9" [ref=e1303] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=80&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAS
+              - text: "9"
+            - link "Page 10" [ref=e1305] [cursor=pointer]:
+              - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=90&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8tMDegQIYRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1307]:
+              - link "Next" [ref=e1308] [cursor=pointer]:
+                - /url: /search?q=Artemis+2+mission&sca_esv=a963c435ce01c701&ei=ugziaa6RBu_aruEPiZz_4AE&start=10&sa=N&sstk=Af77f_exVK9CobV78Gkl_wPYHRoaS8f2kJ_px7LKmYg09p6nete-t-rvH9FE8uMBmyD3D8wqFPDMsM9ySAz0Ph4rhGZZRyDm46hJBA&ved=2ahUKEwiu1sr11_STAxVvrSsGHQnOHxwQ8NMDegQIYRAW
+                - generic [ref=e1310]: Next
+        - navigation
+      - complementary "Complementary results" [ref=e1311]:
+        - heading "Complementary results" [level=2] [ref=e1312]
+    - contentinfo [ref=e1314]:
+      - heading "Footer links" [level=1] [ref=e1315]
+      - generic [ref=e1319]:
+        - generic [ref=e1321]:
+          - text: India
+          - generic [ref=e1323]:
+            - button "Udumalaipettai, Tamil Nadu - From your IP address" [ref=e1325] [cursor=pointer]:
+              - generic [ref=e1326]: Udumalaipettai, Tamil Nadu
+              - generic [ref=e1328]:
+                - text: "-"
+                - generic [ref=e1329]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e1331] [cursor=pointer]: Update location
+        - generic [ref=e1334]:
+          - link "Help" [ref=e1335] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e1336] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1337] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e1338] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,20 @@
+2026-04-20 22:53:46 - finance_app - INFO - === Application started ===
+2026-04-20 22:53:46 - finance_app - INFO - Initialized database at c:\claude-projects\data\finance.db
+2026-04-20 22:53:46 - finance_app - INFO - User quit application
+2026-04-20 22:53:46 - finance_app - INFO - Database connection closed
+2026-04-20 22:53:46 - finance_app - INFO - === Application ended ===
+2026-04-20 22:53:55 - finance_app - INFO - === Application started ===
+2026-04-20 22:53:55 - finance_app - INFO - Initialized database at C:\claude-projects\data\finance.db
+2026-04-20 22:53:55 - finance_app - INFO - Added transaction #2: income $100.50 (Salary)
+2026-04-20 22:53:55 - finance_app - INFO - User added income transaction: $100.50 in Salary
+2026-04-20 22:53:55 - finance_app - ERROR - Unexpected error: EOF when reading a line
+Traceback (most recent call last):
+  File "C:\claude-projects\finance.py", line 16, in main
+    main_menu(db)
+    ~~~~~~~~~^^^^
+  File "C:\claude-projects\finance_app\menus.py", line 223, in main_menu
+    choice = input("  Choose: ").strip()
+             ~~~~~^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+2026-04-20 22:53:55 - finance_app - INFO - Database connection closed
+2026-04-20 22:53:55 - finance_app - INFO - === Application ended ===

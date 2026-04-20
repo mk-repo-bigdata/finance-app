@@ -4,6 +4,7 @@ from datetime import date
 from pathlib import Path
 from typing import Optional
 
+from .logger import logger
 from .models import Transaction, TransactionType
 
 DB_PATH = Path(__file__).parent.parent / "data" / "finance.db"
@@ -25,6 +26,7 @@ class DatabaseManager:
         db_path.parent.mkdir(parents=True, exist_ok=True)
         self._conn = sqlite3.connect(str(db_path))
         self._conn.row_factory = sqlite3.Row
+        logger.info(f"Initialized database at {db_path}")
         self._init_schema()
 
     def _init_schema(self) -> None:
@@ -48,7 +50,9 @@ class DatabaseManager:
                 "VALUES (?, ?, ?, ?, ?)",
                 (tx.date.isoformat(), tx.type.value, tx.category, tx.amount, tx.description),
             )
-        return cur.lastrowid
+        tx_id = cur.lastrowid
+        logger.info(f"Added transaction #{tx_id}: {tx.type.value} ${tx.amount:,.2f} ({tx.category})")
+        return tx_id
 
     def get_all(
         self,
@@ -98,10 +102,13 @@ class DatabaseManager:
                 "WHERE id=?",
                 (tx.date.isoformat(), tx.type.value, tx.category, tx.amount, tx.description, tx.id),
             )
+        logger.info(f"Updated transaction #{tx.id}: {tx.type.value} ${tx.amount:,.2f} ({tx.category})")
 
     def delete(self, tx_id: int) -> None:
         with self._conn:
             self._conn.execute("DELETE FROM transactions WHERE id = ?", (tx_id,))
+        logger.info(f"Deleted transaction #{tx_id}")
 
     def close(self) -> None:
         self._conn.close()
+        logger.info("Database connection closed")
