@@ -4,6 +4,7 @@ from typing import Dict, List
 
 from .db import DatabaseManager
 from .display import print_summary
+from .logger import logger
 
 def _sep(char: str = "-", width: int = 55) -> str:
     return char * width
@@ -44,6 +45,7 @@ def print_category_bar_chart(by_category: Dict[str, float], total: float) -> Non
 def _get_and_show(db: DatabaseManager, start: date | None, end: date | None, label: str) -> None:
     txs = db.get_all(start_date=start, end_date=end, sort_by="date", sort_dir="ASC")
     data = compute_summary(txs)
+    logger.debug(f"Generated summary for {label}: Income=${data['income']:.2f}, Expenses=${data['expenses']:.2f}")
     print(f"\n  --- {label} ---")
     print_summary(data["income"], data["expenses"])
 
